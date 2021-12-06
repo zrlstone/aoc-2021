@@ -19,7 +19,7 @@ task :console do
 end
 
 # Set Day
-day = 5
+day = 6
 
 (1..day).each do |d|
   task "day_0#{d}".to_sym do
