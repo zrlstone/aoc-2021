@@ -8,8 +8,8 @@ describe "Day 08: Part 1" do
   end
 end
 
-# describe "Day 08: Part 2" do
-#   it "should return the correct answer" do
-#     expect(day_08(input_path = TEST_INPUT_08, part = 2)).to eq 168
-#   end
-# end
+describe "Day 08: Part 2" do
+  it "should return the correct answer" do
+    expect(day_08(input_path = TEST_INPUT_08, part = 2)).to eq 61229
+  end
+end
